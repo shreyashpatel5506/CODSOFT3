@@ -1,0 +1,445 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/beautiful-gold-wedding-rings-invitation-flowers-wood-beautiful-gold-wedding-rings-invitation-flowers-wood-308067470.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+button{
+    padding:7px 25px;
+}
+.main{
+    margin:0 25px 25px;
+    box-shadow: 0, 0 ,25px;
+}
+.kalamandir{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 15px;
+}
+.jwellery_image{
+    background-image: url('https://img.freepik.com/premium-photo/gold-rings-wedding-ring-celebration-background_908985-40454.jpg?w=740');
+    width:100%;
+    height:600px;
+    margin-top:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: border-box;
+    animation: fade 4s ease;
+    opacity:0.8;
+    backface-visibility: visible;
+    backdrop-filter: blur(5px);
+}
+.text{
+display:block;
+position: absolute;
+right:150px;
+top:350px;
+width: 400px;
+height: auto;
+font-size:30px;
+color: rgb(133, 91, 0);
+font-family: "Sevillana", cursive;
+font-weight: 400;
+font-style: normal;
+backface-visibility: hidden;
+background-color: rgb(255, 255, 217);
+backdrop-filter: blur(5px);
+fill-opacity: 0.5;
+opacity: 0.8;
+z-index: 1;
+box-shadow: 0 0 25px rgb(255, 255, 217);
+padding: 15px;
+}
+.line1 , .line2{
+    display: block;
+    opacity:5100;
+    font-weight: 600;
+    margin: 0;
+}
+.line2{
+    float: right;
+    margin-top: 15px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom: 15px;
+   
+    z-index: 1;
+    background-color: white;
+    margin-top: -5px;
+    width:100%;
+}
+.menu1123{
+    display: none;
+}
+.menu2{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    font-size: larger;
+    height: 100%;
+    width:70%;
+    z-index: 1;
+    animation: tra 2s ease-in-out;
+    position: fixed;
+    top:85px;
+    gap:35px;
+}
+@keyframes tra {
+    0%{transform: translateX(-100%);} 
+    100%{transform: translateX(0%);}   
+}
+.menu2 span{
+    display: block;
+    cursor: pointer;
+    padding:5px;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.menu span{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding:15px;
+    cursor: pointer;
+}
+.menu a{
+    text-decoration: none;
+    color:black;
+    font-size:24px;
+}
+.menu1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#p4{
+    object-fit:none;
+}
+.burgermenu{
+    width:45px;
+    height:35px;
+    object-fit: cover;
+    display: none;
+}
+.menu1 span{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
+.menu1 a{
+    text-decoration: none;
+    color:black;
+    font-size:24px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   margin-top: 15px;
+    width:100%;
+    font-weight: 900;
+    cursor:pointer;
+}
+.button .b1{
+    border: 2px solid rgb(165, 119, 0);
+    animation: none;
+    background-color: goldenrod;
+    padding:7px 27px;
+    border-radius: 5%;
+    opacity:1;
+}
+.button a{
+    text-decoration:none;
+    color: rgb(132, 94, 0);
+    
+}
+.none{
+    display: none;
+}
+.up{
+
+    display:block;
+    position: fixed;
+    right:15px;
+    bottom:25px;
+    background-color: black;
+    color:white;
+    font-size: 24px;
+    border-radius: 50%;
+    padding:17px;
+    cursor: pointer;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:35px;
+    opacity: 1;
+    z-index: 1;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.product{
+    width:30%;
+    border-radius: 12px;
+   box-shadow: 0 0 150px rgb(255, 209, 83);
+    border:2px solid rgb(131, 96, 1);
+    background-color: white;
+   overflow: hidden;
+}
+.product p{
+    margin: 0;
+}
+.pimage{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+.text1{
+    display: block;
+    color: rgb(105, 67, 0);
+    font-size: 24px;
+    font-weight: 700;
+    margin:0 15px 0 15px;
+}
+.text1 p{
+padding: 8px 0;
+}
+
+.text1 button{
+    padding:15px;
+    color: rgb(105, 67, 0);
+    font-size:18px;
+    font-weight: 700;
+    margin:0 15px 0 15px;
+    border:2px solid rgb(131, 96, 1);
+    cursor: pointer;
+}
+.cart button{
+    padding:8px;
+    color: rgb(105, 67, 0);
+    font-size:18px;
+    font-weight: 700;
+    margin:0 0 15px 0;
+    border:2px solid rgb(131, 96, 1);
+    cursor: pointer;
+    width:150px;
+}
+.CART{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding:0 15px;
+
+}
+.text1 .cart{
+    padding: 0;
+}
+.cart img{
+    width:45px;
+    height:45px;
+    object-fit: cover;
+}
+.text1 a 
+{
+    text-decoration: none;
+}
+.text1 img{
+    width:45px;
+    height:45px;
+    object-fit: cover;
+    display: none;
+ }
+
+
+#store{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.brand{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    width:100%;
+overflow: hidden;
+flex-grow: 1;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.brand1{
+    mix-blend-mode: multiply;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-basis: 100;
+}
+.product > p{
+    padding:0 15px 15px;
+}
+.showmore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.showmore span{
+border:2px solid rgb(131, 96, 1);
+padding:15px;
+color: rgb(105, 67, 0);
+font-size:18px;
+font-weight: 700;
+margin:15px;
+
+cursor: pointer;
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+}
+.detail1 img{
+        width:50px;
+        aspect-ratio: 1;
+      }
+footer{
+    background-color: rgb(206, 206, 206);
+    color:gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    padding: 15px;
+}
+footer .logo{
+    width: 200px;
+    height:200px;
+
+}
+.showmore span:hover{
+    background-color: rgb(164, 136, 87);
+}
+button:hover{
+background-color: rgb(164, 136, 87);
+}
+@keyframes fade {
+    0%{opacity: 0;transform: translateY(100px);}
+    100%{opacity: 0.8;transform: translateY(0);}
+}
+@keyframes marquee {
+    0%{
+       transform: translateX(-100%);
+      
+    }
+    25%{
+        transform: translateX(-25%);
+    }
+    50%{
+        transform: translateX(25%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+
+}
+@media screen and (max-width:765px) {
+    #store,#product{
+        padding: 0 15px;
+    }
+    .main{
+        margin:0;
+    }
+    .nav{
+    position: sticky;
+    top:0;
+    }
+    .text{
+        display:block;
+        position: absolute;
+        left:35px;
+        top:250px;
+        width: 200px;
+        height: auto;
+        z-index: -1;
+    }
+    .kalamandir{
+        margin-left: 0;
+    }
+    .line1 , .line2{
+        display: block;
+        opacity:5100;
+        font-weight: 400;
+        z-index: -1;
+    }
+    .line2{
+        float: right;
+        margin-top:10px;
+    }
+    
+    .jwellery_image{
+        width: 100%;
+        object-fit: cover;
+        opacity: 0.6;
+    }
+    .menu{
+        display: none;
+    }
+    .burgermenu{
+        display: block;
+
+    }
+    .button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        cursor:pointer;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+    }
+    .product{
+        width:100%;
+        margin-top: 15px;
+    }
+    #p3,#p4{
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+    .brand1{
+        margin-left: 35px;
+        width: 100px;
+        height: 100px;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
